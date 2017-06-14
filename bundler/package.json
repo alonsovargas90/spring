@@ -1,0 +1,48 @@
+{
+  "name": "webpack-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server -p",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alonso",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.26.4",
+    "exports-loader": "^0.6.4",
+    "imports-loader": "^0.7.1",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.9"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-loader": "^2.1.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "^0.26.4",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "font-awesome-loader": "^1.0.2",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "imports-loader": "^0.7.1",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.13.2",
+    "tether": "^1.4.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "2"
+  }
+}

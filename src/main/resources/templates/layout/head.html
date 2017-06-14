@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="site-head">
+	<meta charset="UTF-8" />
+	<link rel="icon" href="../public/img/favicon.ico"
+		th:href="@{/img/favicon.ico}" />
+	<script src="/js/bundle.js" th:src="@{/js/bundle.js}"></script>
+	<link rel="stylesheet" href="../public/css/main.bundle.css"
+		th:href="@{/css/main.bundle.css}" />
+	<meta th:include="this::head" th:remove="tag" />
+</head>
